@@ -1,0 +1,26 @@
+Use Case: 1
+Domain: Tourism
+Context: 
+	Telangana is one of the India’s leading states. The Telangana Tourist Department needs to know how many tourists will visit Telangana in future.
+Objective: 
+	To predict tourist demand by analyzing historical data on tourist arrivals, spending habits and other factors using data Science.
+Data: The data used to predict tourists demand typically includes:
+•	Historical data on tourist arrivals
+•	Spending habits
+•	Demographic data of tourists
+•	Weather
+•	Events and festivals
+•	Holidays
+•	Domestic visitors
+•	Foreign visitors
+•	Number of visitors
+Methods: 
+•	Statistical Modelling can be used to identify the patterns.
+•	Machine Learning algorithms can be used to build and train models to predict future tourists demands.
+Challenges:
+•	The data may not be complete or accurate.
+•	The models may not be able to predict future demand with perfect accuracy.
+Conclusion: Data Science can be used to predict tourist demand and improve tourism in Telangana and increase revenue.
+
+
+
