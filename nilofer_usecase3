@@ -1,0 +1,20 @@
+Use case: 3.
+Domain: Cryptocurrency.
+Context: Bitcoin Price Prediction
+	Objective: Bitcoin price prediction models use historical price data to predict future price movements.
+	Bitcoin price prediction models can be used for a variet of purposes, including:
+	Investment decisions
+	Risk management
+	Trading strategies
+
+Data: This dataset includes the following columns:
+	Date: The date of the price measurement
+	Open: The opening price of Bitcoin on that date
+	High: The highest price of Bitcoin on that date
+	Low: The lowest price of Bitcoin on that date
+	Close: The closing price of Bitcoin on that date
+Method: Supervised machine learning models
+	Linear Regression
+	Random Forest
+
+Conclusion: Bitcoin price prediction models can be used by investors, financial institutions, and traders to make more informed decisions. However, it is important to remember that these models are not perfect, and they should not be used as the sole basis for investment decisions.
