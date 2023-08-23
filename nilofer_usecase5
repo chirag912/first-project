@@ -1,0 +1,28 @@
+Domain: Health care
+Context: It’s estimated that one in five children suffer from anxiety and depression. But since children younger than eight-years-old don’t have the vocabulary to describe their emotional suffering, adults must determine their mental state and diagnose mental health problems. Long waiting lists for appointments with mental health professionals, insurance processing, and difficulty identifying symptoms all keep children from receiving necessary treatment. Research shows that when these conditions are overlooked, there is an increased risk of substance abuse and suicide later in life.
+
+Objective:   To Predict whether a child is suffering from mental disorder.
+
+Data dictionary:
+
+•	Age
+•	Gender
+•	School performance: Children with mental disorders may have difficulty in school, such as failing grades, dropping out of school, or getting into trouble.
+•	Peer relationships: Children with mental disorders may have difficulty making friends or maintaining relationships with peers.
+•	Family history: Children who have a family history of mental disorders are more likely to develop mental disorders themselves.
+•	Trauma: Children who have experienced trauma, such as abuse or neglect, are more likely to develop mental disorders.
+•	Sleep quality: Children with mental disorders may have difficulty sleeping, which can affect their mood and behavior.
+•	Diet: Children with mental disorders may have poor dietary habits, which can also affect their mood and behavior.
+•	Physical health: Children with mental disorders may also have physical health problems, such as chronic pain or obesity.
+•	Socio economic status
+•	Scores on structured interview
+•	Parent questionnaire
+•	Trier-Social Stress Task:  Audio recordings are taken of the children attempting to create a three-minute story. A buzzer sounds when there are 90 seconds remaining, and again at 30 seconds while they craft their stories.
+
+
+Methods:
+•	The audio recordings of the sessions are then run through a machine learning algorithm to relate the recordings to the child’s diagnosis. The AI algorithms are impressively accurate and have uncovered three audio features indicative of mental health disorders, including low-pitched voices, higher-pitched buzzer responses, and repeatable speech inflections and content.
+
+Conclusion:
+
+Machine learning algorithms can be used to predict mental disorders in children with a high degree of accuracy. However, more research is needed to validate the findings and to improve the accuracy of the algorithms.
