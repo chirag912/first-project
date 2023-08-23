@@ -1,0 +1,18 @@
+Domain: Research and Development
+Context: A company wants to determine the impact of R&D investment on company performance. The company has data on the R&D investment of a sample of companies and their return on equity (ROE). The company wants to use data science to analyze the data and find the relationship between R&D investment and ROE.
+Objective: To determine the impact of R&D investment on company profitability, as measured by return on equity (ROE).
+Data dictionary:
+•	Company: The name of the company.
+•	R&D Spending (% of Revenue): The percentage of revenue that the company spends on research and development.
+•	ROE: The return on equity, which is a measure of profitability.
+•	Market Share: The percentage of the market that the company controls.
+•	Innovation (Number of Patents Filed): The number of patents that the company has filed.
+•	Employee Satisfaction (Score): A score that measures employee satisfaction.
+•	Customer Satisfaction (Score): A score that measures customer satisfaction.
+Methods:
+•	The company will use a machine learning model to predict the ROE of a company based on its R&D spending.
+•	The machine learning model will be trained on a dataset of historical data on R&D spending and ROE.
+•	The model will be evaluated on a holdout dataset of data that was not used to train the model.
+Conclusion:
+•	The results of the analysis will be used to inform the company's decisions about R&D investment.
+•	If the analysis shows that R&D investment is positively correlated with ROE, then the company might decide to increase its R&D spending.
