@@ -1,0 +1,9 @@
+#Use Case 4
+
+#Problem Statement : To improve the planning, design & management
+
+#Paramaters: Historical data, Sensor readings, Geological Surveys, etc.
+
+Methodolgies/Techniques : Improved Decision-Making through Data Analysis - Data science empowers civil engineers to make informed decisions by analyzing vast amounts of data. Harnessing historical project data, sensor readings, geological surveys, and other relevant information to extract valuable insights. These data-driven decisions lead to optimized designs, better project planning, and improved project outcomes.Predictive Maintenance for Infrastructure Sustainability - By continuously monitoring infrastructure health through IoT sensors and data analytics, engineers can predict maintenance requirements accurately,  Risk Assessment and Mitigation - Data science facilitates risk assessment in civil engineering projects by analyzing historical data and identifying potential risk factors.
+
+Technologies: Regression Analysis, Neural Networks, Geographic Information System (GIS), Finite Element Analysis (FEA), Time Series Analysis, etc.
