@@ -1,0 +1,28 @@
+
+				Use Case of AI in Indain Railways
+				(Check & Repair)
+
+	Context: Indian Railways are the most used and common means of transport for passengers and goods.
+
+	objective: To check if a Train needs repair and reduce human error.
+
+	Central railways implementing a new AI-powerd robort that will regularly check trains in the state to guage their need for repair.
+
+	The robort called USTAAD- Undergear Survillance Through Artificial Intelligence Assisted Droid.
+	developed by the mechnical branch of central railways Nagpur division.
+	
+
+	DATA.
+
+	It reportedly do work by capturing photos and videos of the vehicles under gears and sending them to engineers
+
+	It exmains parts of trains coach in real time with an HD camera and transmit images taken over wifi.
+	
+	Enigneers will be able to see videos on big screen and as well record them.
+
+	The cameras of the robot can be rotated in any direction as per command, it can zoom on the spot equipped with LED 
+	flood light and able to capture video in low light and even in dark mode.
+	
+
+	Conclusion
+	AI can help on reduction accidents and losses of human life and goods
