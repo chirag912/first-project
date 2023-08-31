@@ -1,0 +1,28 @@
+Use case: 2
+Domain: Healthcare
+Project: Virtual Nursing Assistant (VNAs)
+Context:
+	The healthcare industry is facing several challenges, including:
+•	An aging population
+•	Increasing chronic diseases
+•	A shortage of nurses
+These challenges are putting a strain on the healthcare system and making it difficult to provide high-quality care to all patients.
+Objective:
+	Virtual nursing assistants (VNAs) can help to address these challenges by providing number of benefits, including:
+•	24/7 availability
+•	Personalized care
+•	Cost-effectiveness
+
+Data dictionary:
+•	Patient demographics: Name, Age, Gender, Address
+•	Medical history: Patients current and past medical conditions, Medications and Allergies
+•	Vital signs: Patients B.P, Heartrate, Temperature
+•	Symptoms: Headache, nausea, rashes.
+•	Medical adherence: Information such as whether patient is medications as prescribed.
+•	Lab Results: Blood test, Diabetics test and any other reports.
+•	Compliance and care: Information such as whether patient is following the instructions of their healthcare providers.
+Methods:
+•	Machine Learning 
+	Natural language processing can be used to extract insights from patient text data files such as medical records and emails.
+Conclusion:
+	Data science can play a critical role in the development and deployment of VANs. It can help to improve the quality of care for many patients.
