@@ -1,0 +1,241 @@
+Assignment Derivatives, Critical Points, and Gradient Descent
+--------------------------------------------------------------
+
+Problem Statement:
+-------------------------
+Question 1: First Order Derivative
+
+Consider the function 𝑓(𝑥) = 3𝑥^2+ 5𝑥 + 2
+a) Find the first-order derivative 𝑓′(𝑥)
+b) Determine the critical points of 𝑓(𝑥) by setting 𝑓′(𝑥) = 0 and solving for 𝑥.
+c) Use the first-order derivative test to classify each critical point as a local minimum, local
+maximum, or neither.
+
+
+Answer:
+a) Find the first-order derivative 𝑓′(𝑥):
+The given function 𝑓(𝑥) = 3𝑥^2+ 5𝑥 + 2
+To find the first-order derivative 𝑓′(𝑥), we apply the power rule and sum rule: 
+
+Applying the power rule to each term:
+
+For a term 𝑎𝑥^𝑛, the derivative is 𝑛𝑎𝑥^(𝑛−1)
+
+Derivative of 3𝑥^2 : d/d𝑥(3𝑥^2)= 2 x 3𝑥(2-1) = 6𝑥
+
+Derivative of 5𝑥   : d/d𝑥 = 1 x 5𝑥^(1-1) = 5
+
+Derivative of the constant term 2: 
+The derivative of a constant is zero, so d/d𝑥(2) = 0
+
+ Combining the derivatives using the sum rule:
+𝑓′(𝑥) = 6𝑥+5
+
+
+b) Determine the critical points of 𝑓(𝑥) by setting 𝑓′(𝑥) = 0 and solving for 𝑥
+Set  6𝑥+5 = 0:
+6𝑥 = -5
+𝑥 = -5/6
+So the critical point is 𝑥 = -5/6.
+
+
+c) Use the first-order derivative test to classify each critical point:
+We evaluate the sign of 𝑓′(𝑥)around the critical point 𝑥 = -5/6
+
+When 𝑥 < -5/6, 𝑓′(𝑥)< 0, indicating a local maximum.
+When 𝑥 > -5/6, 𝑓′(𝑥)> 0, indicating a local minimum.
+
+So, the critical point 𝑥 = −5/6 is a local maximum.
+-------------------------------------------------------------------------------------------------
+
+Question 2: Second Order Derivative
+Continuing from Question 1, let 𝑓(𝑥) = 3𝑥^2+ 5𝑥 + 2
+a) Find the second-order derivative 𝑓′′(𝑥)
+b) Evaluate 𝑓′′(𝑥) at the critical points found in Question 1.
+c) Use the second-order derivative test to determine whether each critical point is a local
+minimum, local maximum, or neither.
+
+Answer:
+Finding the second-order derivative step by step:
+
+The given first-order derivative is 𝑓′(𝑥) = 6𝑥+5.
+
+a) Apply the power rule to each term:
+The power rule states that the derivative of 𝑎𝑥^𝑛 is 𝑛𝑎𝑥^(𝑛−1).
+
+Derivative of 6𝑥: 
+Apply the power rule with 𝑛 = 1: 
+d/d𝑥(6𝑥) = 1 x 6𝑥^(1-1) = 6
+
+Derivative of 5:
+The derivative of a constant is zero, so d/d𝑥(5) = 0.
+
+Combine the derivatives using the sum rule:
+ 𝑓′′(𝑥) = 6
+
+So, the second-order derivative  𝑓′′(𝑥) is a constant, and its value is 6.
+
+
+b)Evaluating 𝑓 at the critical point found in Question 1:
+The critical point found in Question 1 was 𝑥 = -5/6.
+
+The given function is 𝑓(𝑥) = 3𝑥^2+ 5𝑥 + 2
+
+Substitute the critical point into the function:
+
+𝑓(-5/6) = 3(-5/6)^2 + 5(-5/6) + 2 
+
+Simplify each term:
+Term 1: 3(-5/6)^2
+3(-5/6)^2 = 3 x 25/36 = -25/4
+
+Term 2: 5(-5/6)
+5(-5/6) = 5 x (-5/6) = -25/6
+
+Term 3: 2
+The constant term remains unchanged, so +2.
+
+    Combine the terms:
+
+𝑓(-5/6) = -25/4 - 25/6 +2
+
+To add these fractions, find a common denominator (in this case, 12):
+
+𝑓(-5/6) = -75/12 - 50/12 + 24/12
+
+Combine the numerators:
+
+𝑓(-5/6) = -101/12
+
+So,𝑓(-5/6) simplifies to -101/12
+
+c)Using the second-order derivative test to determine whether each critical point is a local
+minimum, local maximum, or neither.
+
+The second-order derivative test is a method used to determine the nature of a critical point (a point where the first derivative is equal to zero or undefined) in relation to the concavity of the function.
+
+Given the second-order derivative  𝑓′′(𝑥) = 6 and the critical point 𝑥 = -5/6.
+
+Second-order derivative test:
+If 𝑓′′(𝑥) > 0 at a critical point, then the function is concave up at that point.
+If 𝑓′′(𝑥) < 0 at a critical point, then the function is concave down at that point.
+
+In our case, 𝑓′′(𝑥) = 6, which is positive.This means that the function is concave up at the critical point 𝑥 = -5/6.
+
+Implication for local extrema:
+
+If a critical point is also a local minimum, then the function is concave up at that point.
+If a critical point is also a local maximum, then the function is concave down at that point.
+
+Since 𝑓′′(𝑥) = 6 > 0 and the function is concave up, the critical point 𝑥 = -5/6 is classified as a local minimum. This means that in the vicinity of 𝑥 = -5/6 the function 𝑓(𝑥) = 3𝑥^2+ 5𝑥 + 2 has a bottom point, and the graph of the function curves upward around this point.
+
+the positive value of the second-order derivative indicates concavity up, and therefore, the critical point 𝑥 = -5/6 is classified as a local minimum according to the second-order derivative test.
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Question 3: Chain Rule
+
+Consider the functions 𝑔(𝑢) = 𝑢^3 and ℎ(𝑥) = 2𝑥 − 1, where 𝑢 is a function of 𝑥, i.e.,
+𝑢 = ℎ(𝑥).
+
+a) Find 𝑔′(𝑢) and ℎ′(𝑥)
+b) Apply the chain rule to find 𝑑𝑔/𝑑𝑥
+
+
+Answer:
+Given functions:
+
+𝑔(𝑢) = 𝑢^3
+ℎ(𝑥) = 2𝑥 − 1
+𝑢 = ℎ(𝑥)
+
+For 𝑔(𝑢) = 𝑢^3
+For a term 𝑥^𝑛, the derivative is 𝑛𝑥^(𝑛−1)
+Apply the power rule: 𝑔′(𝑢) = 3𝑢^2
+or------------------------------dg/du = 3𝑢^2
+
+For ℎ(𝑥) = 2𝑥 − 1
+Apply the derivative of a linear function: ℎ′(𝑥) = 2
+Derivative of 2𝑥   : d/d𝑥 = 1 x 2𝑥^(1-1) = 2
+Derivative of the constant term 1: 
+The derivative of a constant is zero, so d/d𝑥(1) = 0
+or ------------------------------dh/dx = ℎ′(𝑥) = 2
+
+
+For 𝑢 = ℎ(𝑥)
+---------------------------------du/dx= dh/dx
+
+
+ Applying the chain rule to find 𝑑𝑔/𝑑𝑥
+
+𝑑𝑔/𝑑𝑥 = dg/du x du/dx
+     = dg/du x du/dx
+substituing the values
+     = 3𝑢^2 x 2
+     = 2 x 3u^(2-1) x 2
+     = 6u^2
+
+as 𝑢 = ℎ(𝑥)
+
+𝑑𝑔/𝑑𝑥 = 6 x (2𝑥-1)^2
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Question 4: Gradient Descent
+
+A machine learning model has a cost function 𝐽(θ) = θ^2 − 4θ + 5, where θ is the model parameter.
+a) Find the first-order partial derivative ∂𝐽/∂θ
+b) Apply the gradient descent update rule: , where is the learning rate θ𝑛𝑒𝑤 = θ𝑜𝑙𝑑 − α *∂𝐽/∂θ where α the learning rate 
+(assume α = 0. 1)
+c) Explain how the gradient descent process helps in finding the minimum of the cost function.
+
+Answer:
+a)
+Finding the first-order partial derivative of the cost function 𝐽(θ) = θ^2 − 4θ + 5 with respect to θ step by step:
+The cost function is given by:
+𝐽(θ) = θ^2 − 4θ + 5
+
+Differentiation with respect to θ:
+To find the first-order partial derivative, we differentiate each term of the cost function with respect to θ.
+Differentiating θ^2 with respect to θ gives 2θ.
+Differentiating −4θ with respect to θ gives −4.
+Differentiating the constant term 5 with respect to θ gives 0 (as a constant has no θ dependence).
+
+So, the derivative is:
+∂𝐽/∂θ = 2θ −4
+
+b)
+Applying the gradient descent update rule step by step:
+
+The gradient descent update rule is given by:
+θ𝑛𝑒𝑤 = θ𝑜𝑙𝑑 − α *∂𝐽/∂θ
+Given  α = 0.1  substitute ∂𝐽/∂θ = 2θ −4
+
+Substitute into the Update Rule:
+θ𝑛𝑒𝑤 = θ𝑜𝑙𝑑 − 0.1 (2θ𝑜𝑙𝑑−4)
+
+Distribute the 0.1:
+θ𝑛𝑒𝑤 = θ𝑜𝑙𝑑 − 0.1*2θ𝑜𝑙𝑑 + 0.1*4
+
+Combine Like Terms:
+θ𝑛𝑒𝑤 = θ𝑜𝑙𝑑 - 0.2θ𝑜𝑙𝑑 +  0.4
+
+Simplify:
+Combine the terms involving θ𝑜𝑙𝑑:
+θ𝑛𝑒𝑤 = 0.8θ𝑜𝑙𝑑 + 0.4
+
+c)
+Explanation of the gradient descent process:
+
+Gradient descent is an optimization algorithm used to minimize the cost function. It works by iteratively moving towards the minimum of the cost function by adjusting the model parameters (θ in this case) in the opposite direction of the gradient.
+
+In the given formula, ∂J/∂θ represents the direction and magnitude of the steepest increase of the cost function. By subtracting this gradient multiplied by the learning rate (α) from the current parameter value (θ𝑜𝑙𝑑), we update the parameter towards the direction of the minimum.
+
+This process is repeated iteratively, and with each update, the model moves closer to the optimal parameter values that result in the minimum cost. The learning rate (α) controls the size of the steps taken in the parameter space.
+
+In summary, gradient descent helps in finding the minimum of the cost function by iteratively adjusting the model parameters based on the negative gradient, gradually converging towards the optimal parameter values that minimize the cost.
+
+
+
+
+
+
+
